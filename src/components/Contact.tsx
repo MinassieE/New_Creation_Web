@@ -156,7 +156,7 @@ export function Contact() {
                     Email
                   </h4>
                   <p className="text-text-soft">
-                    info@gracecommunity.org
+                    info@ncic.org
                   </p>
                   <p className="text-sm text-muted-foreground mt-1">
                     We respond within 24 hours

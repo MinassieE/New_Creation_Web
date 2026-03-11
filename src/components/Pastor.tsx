@@ -45,8 +45,8 @@ export function Pastor() {
           
           <div className="flex flex-col items-center text-center font-['Outfit'] text-[18px] text-[#242054] leading-relaxed space-y-6 mt-8">
             <p>
-              Pastor John has been faithfully serving our community for over 15 years, bringing a heart 
-              for pastoral care and biblical teaching that transforms lives. Alongside his beloved wife Mary, 
+              Apostle Bisrat Bezuayen (Japi) has been faithfully serving God for over 12 years, preaching the truth of the Gosple bringing a heart 
+              for pastoral care and biblical teaching that transforms lives. Alongside his beloved wife Meron Alemu, 
               they have dedicated their lives to creating a church home where every person feels valued and loved.
             </p>
             
