@@ -8,7 +8,7 @@ import { GraduationCap, Globe, BookOpen, Award, Users, FileText, IdCard, Image a
 import { useState, useEffect } from "react";
 import abc2 from "@/assets/abc2.jpg";
 import abc8 from "@/assets/abc8.jpg";
-import apostle from "@/assets/Apostle1.jpg";
+import apostle from "@/assets/apostle1.jpg";
 import abclogo from "@/assets/abclogo.png";
 import icibc from "@/assets/icibc5.webp";
 
