@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Mail, Facebook, Instagram, Youtube } from "lucide-react";
+import { FaTiktok } from "react-icons/fa";
 import { useState } from "react";
 
 export function Newsletter() {
@@ -66,27 +67,58 @@ export function Newsletter() {
             Follow Us on Social Media
           </h4>
           <div className="flex justify-center gap-4">
-            <Button
-              variant="outline"
-              size="sm"
-              className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+            <a
+              href="http://www.facebook.com/newcreationchurchethiopia"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Facebook className="w-5 h-5" />
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              >
+                <Facebook className="w-5 h-5" />
+              </Button>
+            </a>
+            <a
+              href="https://www.instagram.com/intchurch/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Instagram className="w-5 h-5" />
-            </Button>
-            <Button
-              variant="outline"
-              size="sm"
-              className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              >
+                <Instagram className="w-5 h-5" />
+              </Button>
+            </a>
+            <a
+              href="http://www.youtube.com/@NewCreationChurchEthiopia"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Youtube className="w-5 h-5" />
-            </Button>
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              >
+                <Youtube className="w-5 h-5" />
+              </Button>
+            </a>
+            <a
+              href="https://www.tiktok.com/@newcreationintchurch"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="outline"
+                size="sm"
+                className="w-12 h-12 rounded-full p-0 border-primary/20 hover:border-primary hover:bg-[#352779] hover:text-primary-foreground"
+              >
+                <FaTiktok className="w-5 h-5" />
+              </Button>
+            </a>
           </div>
         </div>
       </div>

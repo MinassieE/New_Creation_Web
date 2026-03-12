@@ -29,7 +29,7 @@ export function Contact() {
   };
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div id="contact" className="relative min-h-screen w-full overflow-hidden">
     <Section background="soft">
       {/* <SectionHeader 
         title="Contact Us"

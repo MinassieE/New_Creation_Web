@@ -15,12 +15,11 @@ export function Discover() {
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mb-auto mt-16">
         <h1 className="font-['Outfit'] font-extrabold text-[96px] leading-[105%] text-white text-center mb-10 animate-fade-up">
-          <span className="inline-block bg-white rounded-full px-8 py-1 font-bold text-[82px] text-[#6D28D9]">Let's </span> Get Through
-          {/* <FaArrowRight className="mr-4 text-[#ffffff] w-[180%] h-4 mt-4" /> */}
+          <span className="inline-block bg-white rounded-full px-8 py-1 font-bold text-[82px] text-[#6D28D9]">About </span> Us
           <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 100 10"
-    className="ml-[70%] w-48 h-16 text-[#ffffff]"
+    className="ml-[55%] w-48 h-16 text-[#ffffff]"
     fill="none"
     stroke="currentColor"
     strokeWidth="1"

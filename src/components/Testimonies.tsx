@@ -2,6 +2,7 @@ import { Section, SectionHeader } from "@/components/ui/section";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Quote } from "lucide-react";
+import { Link } from "react-router-dom";
 import testimonybg from "@/assets/testimonybg.jpg"
 import kk from "@/assets/kk.jpg"
 import nahom from "@/assets/nahom.jpg"
@@ -49,31 +50,28 @@ export function Testimonies() {
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
     <Section background="soft">
-      {/* <SectionHeader 
-        title="Testimony"
-        subtitle="God is still in the business of transformation. Here are just a few stories of how He's working in the lives of our church family."
-      /> */}
+      <div className="relative left-1/2 right-1/2 w-screen -translate-x-1/2 h-[200px] flex flex-col items-center justify-center overflow-hidden mb-24">
       
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15"
-        style={{ backgroundImage: `url(${testimonybg})` }}
-      >
-      </div>
-      
+      <img
+        src={testimonybg}
+        alt="Testimony Background"
+        className="absolute inset-0 w-full h-full object-cover"
+      /> 
 
-      <div className="grid items-center justify-center mb-24">
-          <p className="font-['Outfit'] text-[#343C2B] font-semibold text-sm ml-[220px] -mb-5">
-            testəˌmōnē
-           </p>
-          <h2 className="font-['Outfit'] text-[#282828] font-bold text-6xl"
-            style={{
-            textShadow: "10px 45px 1px #B3B3B2",
-            }}>
-            Testimony
-          </h2>
-          {/* <h2 className="font-['Outfit'] text-gray-400 text-6xl font-extralight">
-            Testimony
-          </h2> */}
-        </div>
+     
+      <div className="absolute inset-0 bg-[#2B1F66]/[0.92]" />
+
+        <div className="relative z-10 flex flex-col items-center justify-center">
+      
+          <h1 className="relative z-10 font-['Outfit'] font-bold text-[110px] text-white -ml-[420px] tracking-tight">
+            TESTIMONY
+          </h1>
+
+      <div className="absolute bottom-[10px] w-[800px] h-[73px] bg-[#6D28D9] -ml-[420px] -z-10" />
+      
+       </div>
+
+    </div>
       
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12 justify-center">
         {testimonies.map((testimony) => (
@@ -147,14 +145,15 @@ export function Testimonies() {
       </div> */}
       
       <div className="text-center">
-        <Button 
-          variant="outline"
-          size="lg" 
-          className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-        >
-          Read More Testimonies
-        </Button>
-        
+        <Link to="/testimonies">
+          <Button 
+            variant="outline"
+            size="lg" 
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          >
+            Read More Testimonies
+          </Button>
+        </Link>
       </div>
       
     </Section>
