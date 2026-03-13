@@ -6,6 +6,17 @@ import { Clock, Mail, ArrowLeft } from "lucide-react";
 import youthimg from "@/assets/champions.jpg";
 import childrenimg from "@/assets/kids.jpg";
 import marriageimg from "@/assets/Marraige team.jpg";
+import praisechoir2 from "@/assets/praisechoir2.jpg";
+import joychoir1 from "@/assets/joychoir1.jpg";
+import shebshebachoir from "@/assets/shebshebachoir.jpg";
+import praiesechoir1 from "@/assets/praiesechoir1.jpg";
+import halelchorir from "@/assets/halelchorir.jpg";
+import youthchoir from "@/assets/youthchoir.jpg";
+import chm1 from "@/assets/chm1.jpg";
+import chm3 from "@/assets/chm3.jpg";
+import media1 from "@/assets/media1.jpg";
+import nightprayer4 from "@/assets/nightprayer4.jpg";
+import evangelism from "@/assets/evangelism.jpg";
 
 interface Ministry {
   id: number;
@@ -125,11 +136,13 @@ const ministriesData: Ministry[] = [
     name: "Choirs",
     mission: "Lifting voices in worship and praise to glorify God through music.",
     description: "Our Choir Ministry leads the congregation in powerful musical expressions of faith.",
-    image: youthimg,
+    image: praisechoir2,
     activities: [
-      { title: "Weekly Rehearsals", description: "Practice and prepare worship songs", image: youthimg },
-      { title: "Sunday Worship", description: "Lead congregation in praise", image: youthimg },
-      { title: "Special Events", description: "Concerts and community performances", image: youthimg }
+      { title: "Joy Choir", description: "Bringing joy through worship and praise", image: joychoir1 },
+      { title: "Shebsheba Choir", description: "Worshiping with passion and dedication", image: shebshebachoir },
+      { title: "Praise Choir", description: "Leading the congregation in powerful praise", image: praiesechoir1 },
+      { title: "Halel Choir", description: "Glorifying God with harmonious voices", image: halelchorir },
+      { title: "Youth Choir", description: "Young voices raised in worship", image: youthchoir }
     ],
     testimonies: [
       {
@@ -148,7 +161,7 @@ const ministriesData: Ministry[] = [
     leader: {
       name: "Minister of Music",
       message: "Music is a powerful tool for worship. Join us as we use our voices to glorify God and inspire others.",
-      photo: youthimg
+      photo: praisechoir2
     },
     schedule: "",
     contact: "choir@ncic.org"
@@ -158,11 +171,11 @@ const ministriesData: Ministry[] = [
     name: "Evangelism",
     mission: "Spreading the Gospel and sharing Christ's love with our community.",
     description: "Our Evangelism Ministry reaches out to share the Good News through various outreach programs.",
-    image: childrenimg,
+    image: evangelism,
     activities: [
-      { title: "Community Outreach", description: "Street evangelism and events", image: childrenimg },
-      { title: "Mission Trips", description: "Local and international missions", image: childrenimg },
-      { title: "Training Sessions", description: "Equipping believers to share their faith", image: childrenimg }
+      { title: "Community Outreach", description: "Street evangelism and events", image: evangelism },
+      { title: "Mission Trips", description: "Local and international missions", image: evangelism },
+      { title: "Training Sessions", description: "Equipping believers to share their faith", image: evangelism }
     ],
     testimonies: [
       {
@@ -181,7 +194,7 @@ const ministriesData: Ministry[] = [
     leader: {
       name: "Evangelist Team",
       message: "The harvest is plentiful! Join us in reaching the lost and making disciples for Christ.",
-      photo: childrenimg
+      photo: evangelism
     },
     schedule: "",
     contact: "evangelism@ncic.org"
@@ -191,11 +204,11 @@ const ministriesData: Ministry[] = [
     name: "Prayer Ministry",
     mission: "Interceding for our church family and community through dedicated prayer.",
     description: "Our Prayer Ministry is the spiritual backbone of our church, believing in the power of prayer.",
-    image: marriageimg,
+    image: nightprayer4,
     activities: [
-      { title: "Prayer Meetings", description: "Regular corporate prayer gatherings", image: marriageimg },
-      { title: "24/7 Prayer Chain", description: "Continuous prayer coverage", image: marriageimg },
-      { title: "Prayer Counseling", description: "One-on-one prayer support", image: marriageimg }
+      { title: "Prayer Meetings", description: "Regular corporate prayer gatherings", image: nightprayer4 },
+      { title: "24/7 Prayer Chain", description: "Continuous prayer coverage", image: nightprayer4 },
+      { title: "Prayer Counseling", description: "One-on-one prayer support", image: nightprayer4 }
     ],
     testimonies: [
       {
@@ -214,7 +227,7 @@ const ministriesData: Ministry[] = [
     leader: {
       name: "Prayer Coordinator",
       message: "Prayer changes things! Join us as we stand in the gap and intercede for our church and community.",
-      photo: marriageimg
+      photo: nightprayer4
     },
     schedule: "",
     contact: "prayer@ncic.org"
@@ -224,11 +237,11 @@ const ministriesData: Ministry[] = [
     name: "CHM (Care and Help Ministry)",
     mission: "Demonstrating Christ's love through practical acts of service and charity.",
     description: "CHM serves those in need with compassion, providing food, clothing, and support.",
-    image: youthimg,
+    image: chm3,
     activities: [
-      { title: "Food Assistance", description: "Food pantry and meal programs", image: youthimg },
-      { title: "Clothing Drive", description: "Providing clothing to those in need", image: youthimg },
-      { title: "Hospital Visits", description: "Caring for the sick and elderly", image: youthimg }
+      { title: "Prison Ministry", description: "Bringing hope and the Gospel to those in prison", image: chm3 },
+      { title: "Health Ministry", description: "Providing medical care and health support to the community", image: chm1 },
+      { title: "Giving", description: "Supporting those in need through generous giving and charity", image: chm3 }
     ],
     testimonies: [
       {
@@ -247,7 +260,7 @@ const ministriesData: Ministry[] = [
     leader: {
       name: "CHM Coordinator",
       message: "We believe in showing God's love through action. Join us in making a tangible difference in people's lives.",
-      photo: youthimg
+      photo: chm3
     },
     schedule: "",
     contact: "chm@ncic.org"
@@ -257,11 +270,11 @@ const ministriesData: Ministry[] = [
     name: "Media / Production",
     mission: "Using technology and creativity to enhance worship and extend our ministry reach.",
     description: "Our Media team handles audio, video, live streaming, and all technical aspects of services.",
-    image: childrenimg,
+    image: media1,
     activities: [
-      { title: "Live Streaming", description: "Broadcasting services online", image: childrenimg },
-      { title: "Audio/Video", description: "Sound and visual production", image: childrenimg },
-      { title: "Social Media", description: "Digital content creation", image: childrenimg }
+      { title: "Live Streaming", description: "Broadcasting services online", image: media1 },
+      { title: "Audio/Video", description: "Sound and visual production", image: media1 },
+      { title: "Social Media", description: "Digital content creation", image: media1 }
     ],
     testimonies: [
       {
@@ -280,7 +293,7 @@ const ministriesData: Ministry[] = [
     leader: {
       name: "Media Director",
       message: "We work behind the scenes to ensure every service runs smoothly and reaches people both in-person and online.",
-      photo: childrenimg
+      photo: media1
     },
     schedule: "",
     contact: "media@ncic.org"
@@ -346,32 +359,64 @@ export default function MinistryDetail() {
       </div>
 
       {/* Activities Section */}
-      <div className="max-w-7xl mx-auto px-8 py-12">
-        <h2 className="font-['Outfit'] font-bold text-3xl text-gray-900 mb-8">Our Activities</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto px-8 py-16">
+        <h2 className="font-['Outfit'] font-bold text-4xl text-gray-900 mb-12 text-center">
+          {ministry.id === 4 ? "Our Choirs" : "Our Activities"}
+        </h2>
+        <div className={`grid ${ministry.id === 4 ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5' : 'md:grid-cols-2 lg:grid-cols-3'} gap-8`}>
           {ministry.activities.map((activity, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow">
-              <CardContent className="p-0">
-                <div className="aspect-video bg-gray-200 rounded-t-lg overflow-hidden">
-                  <img
-                    src={activity.image}
-                    alt={activity.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-['Outfit'] font-bold text-xl text-gray-900 mb-2">
+            <div
+              key={index}
+              className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+              style={{
+                animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`
+              }}
+            >
+              {/* Image Container */}
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src={activity.image}
+                  alt={activity.title}
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                {/* Gradient Overlay */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300"></div>
+                
+                {/* Title on Image */}
+                <div className="absolute bottom-0 left-0 right-0 p-6 transform transition-transform duration-300">
+                  <h3 className="font-['Outfit'] font-bold text-2xl text-white mb-2 drop-shadow-lg">
                     {activity.title}
                   </h3>
-                  <p className="font-['Outfit'] text-gray-600">
-                    {activity.description}
-                  </p>
+                  <div className="h-1 w-16 bg-[#6D28D9] rounded-full transform origin-left transition-all duration-300 group-hover:w-full"></div>
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+
+              {/* Description Card */}
+              <div className="bg-white p-6 border-t-4 border-[#6D28D9]">
+                <p className="font-['Outfit'] text-gray-700 leading-relaxed">
+                  {activity.description}
+                </p>
+              </div>
+
+              {/* Decorative Corner */}
+              <div className="absolute top-4 right-4 w-12 h-12 border-t-4 border-r-4 border-white/30 rounded-tr-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+            </div>
           ))}
         </div>
       </div>
+
+      <style>{`
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      `}</style>
 
       {/* Testimony Section */}
       <div className="bg-[#6D28D9]/10 py-16">

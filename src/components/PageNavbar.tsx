@@ -65,7 +65,7 @@ export function PageNavbar() {
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Discover", path: "/#discover" },
+    { name: "Discover", path: "/discover" },
     { name: "Ministry", path: "/ministry" },
     { name: "Devotion", path: "/#devotional" },
     { name: "Testimony", path: "/testimonies" },

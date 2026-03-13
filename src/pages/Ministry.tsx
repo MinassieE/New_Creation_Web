@@ -6,6 +6,11 @@ import { useNavigate } from "react-router-dom";
 import youthimg from "@/assets/champions.jpg";
 import childrenimg from "@/assets/kids.jpg";
 import marriageimg from "@/assets/Marraige team.jpg";
+import praisechoir2 from "@/assets/praisechoir2.jpg";
+import media1 from "@/assets/media1.jpg";
+import nightprayer4 from "@/assets/nightprayer4.jpg";
+import chm3 from "@/assets/chm3.jpg";
+import evangelism from "@/assets/evangelism.jpg";
 
 interface Ministry {
   id: number;
@@ -53,7 +58,7 @@ const ministries: Ministry[] = [
     id: 4,
     name: "Choirs",
     description: "Lifting voices in worship and praise, our choir ministry leads the congregation in powerful musical expressions of faith and devotion.",
-    image: youthimg,
+    image: praisechoir2,
     fullDescription: "Our Choir Ministry is dedicated to glorifying God through music. We believe that worship through song is a powerful way to connect with God and inspire others. Our choir members rehearse regularly to prepare uplifting songs that enhance our worship services and special events. Whether you're an experienced singer or just love to worship, there's a place for you in our choir.",
     leader: "Minister of Music",
     schedule: "Thursdays, 6:00 PM - 8:00 PM (Rehearsal)",
@@ -63,7 +68,7 @@ const ministries: Ministry[] = [
     id: 5,
     name: "Evangelism",
     description: "Spreading the Gospel and sharing the love of Christ with our community through outreach programs, mission trips, and personal evangelism.",
-    image: childrenimg,
+    image: evangelism,
     fullDescription: "Our Evangelism Ministry is passionate about sharing the Good News of Jesus Christ with those who don't know Him. We organize community outreach events, door-to-door evangelism, street ministry, and mission trips. Our team is trained in effective evangelism techniques and equipped to share their faith with confidence and compassion.",
     leader: "Evangelist Team",
     schedule: "Saturdays, 9:00 AM - 12:00 PM",
@@ -73,7 +78,7 @@ const ministries: Ministry[] = [
     id: 6,
     name: "Prayer Ministry",
     description: "Interceding for the needs of our church family and community through dedicated prayer meetings and 24/7 prayer chains.",
-    image: marriageimg,
+    image: nightprayer4,
     fullDescription: "Our Prayer Ministry is the spiritual backbone of our church. We believe in the power of prayer to transform lives, heal the sick, and move mountains. Our prayer warriors meet regularly to intercede for our church, community, and world. We also maintain a 24/7 prayer chain for urgent needs and offer prayer support for anyone who requests it.",
     leader: "Prayer Coordinator",
     schedule: "Wednesdays, 6:00 AM - 7:00 AM & Fridays, 8:00 PM - 12:00 AM",
@@ -83,7 +88,7 @@ const ministries: Ministry[] = [
     id: 7,
     name: "CHM (Care and Help Ministry)",
     description: "Demonstrating Christ's love through practical acts of service, charity work, and compassionate care for those in need.",
-    image: youthimg,
+    image: chm3,
     fullDescription: "Our Care and Help Ministry (CHM) is dedicated to serving those in need within our church and community. We provide food assistance, clothing, financial support, hospital visits, and practical help to families facing difficult times. Our mission is to be the hands and feet of Jesus by showing His love through tangible acts of kindness and compassion.",
     leader: "CHM Coordinator",
     schedule: "As needed - Contact for volunteer opportunities",
@@ -93,7 +98,7 @@ const ministries: Ministry[] = [
     id: 8,
     name: "Media / Production",
     description: "Using technology and creativity to enhance worship experiences and extend our ministry reach through live streaming and multimedia.",
-    image: childrenimg,
+    image: media1,
     fullDescription: "Our Media and Production Ministry combines technical expertise with creative vision to support all aspects of our church services and events. We handle audio, video, lighting, live streaming, social media, graphic design, and photography. Our team works behind the scenes to ensure that every service runs smoothly and that our message reaches people both in-person and online.",
     leader: "Media Director",
     schedule: "Sundays (Service times) & Training sessions as scheduled",

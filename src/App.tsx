@@ -19,6 +19,7 @@ import ServicesPage from "./pages/ServicesPage";
 import TeachingsPage from "./pages/TeachingsPage";
 import TestimoniesPage from "./pages/TestimoniesPage";
 import BibleCollege from "./pages/BibleCollege";
+import DiscoverPage from "./pages/DiscoverPage";
 
 // Admin Pages
 import ContentManagers from "./pages/admin/ContentManagers";
@@ -50,6 +51,7 @@ const App = () => (
           {/* Public Website Routes */}
           <Route element={<PublicLayout />}>
             <Route path="/" element={<Index />} />
+            <Route path="/discover" element={<DiscoverPage />} />
             <Route path="/ministry" element={<Ministry />} />
             <Route path="/ministry/:id" element={<MinistryDetail />} />
             <Route path="/services" element={<ServicesPage />} />
